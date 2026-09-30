@@ -1,0 +1,11 @@
+name = "littlewood_cylinders_lean4web"
+version = "0.1.0"
+defaultTargets = ["LittlewoodCylindersLean4Web"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
+
+[[lean_lib]]
+name = "LittlewoodCylindersLean4Web"

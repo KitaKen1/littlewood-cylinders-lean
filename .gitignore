@@ -1,0 +1,19 @@
+/.lake/
+/lean/.lake/
+/lean4web/.lake/
+*.olean
+*.ilean
+*.c
+*.o
+.DS_Store
+
+# Local verification output and archived development artifacts.
+/lean/verification/
+/lean4web/verification/
+/lean4web/diagnostics/
+/lean4web/bundle-manifest.json
+/fclikelean/PR_DRAFT.md
+
+# Superseded graph data outside the proof entry points' import closure.
+/lean/UpperGraphData.lean
+/lean/UpperGraphSwitchingData.lean

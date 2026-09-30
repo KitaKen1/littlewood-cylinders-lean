@@ -1,0 +1,30 @@
+name = "littlewood_cylinders_fc"
+version = "0.1.0"
+defaultTargets = ["LittlewoodCylindersFC", "LittlewoodVerified"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "e04cc601840dd7a37f89b821a67f3a9e3c38d9c3"
+
+[[lean_lib]]
+name = "LittlewoodCylindersFC"
+
+[[lean_lib]]
+name = "LittlewoodVerified"
+globs = ["LittlewoodVerified", "LowerCertificateData", "LowerCertificate",
+  "LowerCertificateSoundness", "LowerCertificateAlgebra", "LowerSolution",
+  "LineGeometry", "DirectionCertificate", "RootLines", "UpperNormObstructions",
+  "UpperMoment", "UpperCross", "UpperPolygon", "UpperCircuit",
+  "UpperSignCertificate", "UpperOrientation", "UpperPolygonData",
+  "UpperFiveDirections", "UpperFiveNormalization", "UpperAlternating",
+  "UpperFiveCertificate", "UpperFiveData", "UpperRecordedCases",
+  "AxisParametrization", "UpperEuclidean", "UpperDistance", "UpperNondegenerate",
+  "UpperParallel", "UpperNoParallel", "UpperSignExtraction",
+  "UpperGrassmannPlucker", "UpperTetrahedron", "UpperNecessarySigns",
+  "UpperSignSymmetry", "UpperSignNormalization", "UpperGraphCover",
+  "UpperGraphSwitchingCheck", "UpperGraphSwitching", "UpperGraphSwitchingFastCheck",
+  "UpperFiveParity", "UpperPrunedGraphCover", "UpperCliqueFree",
+  "UpperPrunedGraphData", "UpperPrunedSwitchingData", "UpperPrunedGraphSwitching", "UpperContactCoverage", "UpperSATCore", "UpperSATClauses", "UpperLRAT",
+  "UpperSATCases.Group00", "UpperSATCases.Group01", "UpperSATCases.Group02", "UpperSATCases.Group03", "UpperSATCases.Group04", "UpperSATCases.Group05", "UpperSATCases.Group06", "UpperSATCases.Group07", "UpperSATCases.Group08", "UpperSATCases.Group09", "UpperSATCases.Group10", "UpperSATCases.Group11", "UpperSATCases.Group12", "UpperSATCases.Group13",
+  "UpperSATCoverage"]

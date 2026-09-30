@@ -1,0 +1,43 @@
+import RootLines
+import UpperRecordedCases
+import UpperSignExtraction
+import UpperSignNormalization
+import UpperSATCoverage
+
+/-!
+The geometric arguments and the complete finite certificate proof.
+The final maximum theorem is still in LittlewoodCylindersFC.lean.
+-/
+
+#print axioms LittlewoodCylinders.LowerCertificate.exists_seven_affine_lines
+#print axioms LittlewoodCylinders.Upper.five_sign_obstruction
+#print axioms LittlewoodCylinders.Upper.recorded_polygon_excluded
+#print axioms LittlewoodCylinders.Upper.recorded_five_excluded
+#print axioms LittlewoodCylinders.Upper.all_827_recorded_cases_impossible
+#print axioms LittlewoodCylinders.LineGeometry.exists_family_parameters
+#print axioms LittlewoodCylinders.Upper.lineDistance_eq_cross
+#print axioms LittlewoodCylinders.Upper.lineDistance_parallel
+#print axioms LittlewoodCylinders.Upper.contact_magnitude_of_unit_distance
+#print axioms LittlewoodCylinders.Upper.uniform_of_nonparallel_unit_distances
+#print axioms LittlewoodCylinders.Upper.no_four_parallel_axes
+#print axioms LittlewoodCylinders.Upper.no_three_parallel_with_transversal
+#print axioms LittlewoodCylinders.Upper.parallel_pair_common_normal
+#print axioms LittlewoodCylinders.Upper.no_parallel_in_eight
+#print axioms LittlewoodCylinders.Upper.signs_of_affine_configuration
+#print axioms LittlewoodCylinders.Upper.gpCheck_of_sorted_signs
+#print axioms LittlewoodCylinders.Upper.tetrahedronCheck_of_realization
+#print axioms LittlewoodCylinders.Upper.tetra_bits_eq_count
+#print axioms LittlewoodCylinders.Upper.tetrahedronCheck_eq_count
+#print axioms LittlewoodCylinders.Upper.affine_configuration_satisfies_sign_checks
+#print axioms LittlewoodCylinders.Upper.signRealizable_reorient_relabel
+#print axioms LittlewoodCylinders.Upper.signRealizable_neg_contact
+#print axioms LittlewoodCylinders.Upper.signRealizable_neg_orientation
+#print axioms LittlewoodCylinders.Upper.normalized_sign_system_of_affine_configuration
+#print axioms LittlewoodCylinders.Upper.GraphCover.prunedGraphReps7_cover
+#print axioms LittlewoodCylinders.Upper.GraphCover.prunedContactSwitches_valid
+#print axioms LittlewoodCylinders.Upper.GraphCover.contactReps131_size
+#print axioms LittlewoodCylinders.Upper.eight_axes_reduce_to_131
+
+#print axioms LittlewoodCylinders.Upper.SAT.Reason.sound
+#print axioms LittlewoodCylinders.Upper.all_contact_representatives_excluded
+#print axioms LittlewoodCylinders.Upper.no_eight_affine_axes
